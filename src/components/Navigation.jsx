@@ -5,7 +5,7 @@ function Navigation() {
         <>
             <nav className="flex justify-between items-center p-4">
                 <div>
-                    <img className="w-20" src="./public/black-logo.svg" alt="Logo Image" />
+                    <img className="w-20" src="public/black-logo.svg" alt="Logo Image" />
                 </div>
 
                 <div className="flex space-x-10">
