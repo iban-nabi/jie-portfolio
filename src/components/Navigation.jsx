@@ -5,15 +5,15 @@ function Navigation() {
         <>
             <nav className="flex justify-between items-center p-4">
                 <div>
-                    <img className="w-20" src="src/assets/black-logo.png" alt="Logo Image" />
+                    <img className="w-20" src="src/assets/black-logo.svg" alt="Logo Image" />
                 </div>
 
                 <div className="flex space-x-10">
                     <a href="https://github.com/iban-nabi">
-                        <img className="w-12 h-13" src="src/assets/icons8-github-60.png" alt="Github Image" />
+                        <img className="w-10 h-13" src="src/assets/github-mark.svg" alt="Github Image" />
                     </a>
                     <a href="https://www.linkedin.com/in/jan-ivan-ezra-paguyo">
-                        <img className="w-12 h-13 mr-4" src="src/assets/icons8-linkedin-60.png" alt="LinkedIn Image" />
+                        <img className="w-9 h-10 mr-7" src="src/assets/linkedin.svg" alt="LinkedIn Image" />
                     </a>
                 </div>
             </nav>
