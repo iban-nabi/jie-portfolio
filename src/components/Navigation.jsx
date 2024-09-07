@@ -13,7 +13,7 @@ function Navigation() {
                         <img className="w-10 h-13" src="./public/github-mark.svg" alt="Github Image" />
                     </a>
                     <a href="https://www.linkedin.com/in/jan-ivan-ezra-paguyo">
-                        <img className="w-9 h-10 mr-7" src="./public/linkedin.svg" alt="LinkedIn Image" />
+                        <img className="w-9 h-10 mr-7" src="jie-portfolio/public/linkedin.svg" alt="LinkedIn Image" />
                     </a>
                 </div>
             </nav>
