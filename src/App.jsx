@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation"
 import Hero from "./components/Hero"
 import AboutMe from "./components/AboutMe"
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navigation></Navigation>
       <Hero></Hero>
       <AboutMe></AboutMe>
+      <TechStack></TechStack>
     </>
   );
 }
