@@ -4,13 +4,13 @@ function Hero() {
             <div className="mb-8 mt-8 md:mt-12 lg:mt-16">
                 <img
                     className="w-80 h-80"
-                    src="./public/drawing-me.jpg"
+                    src="./drawing-me.jpg"
                     alt="drawing-me"
                 />
             </div>
 
             <div className="text-center mb-4">
-                <p className="text-7xl font-bold">hi i'm ezra.</p>
+                <p className="text-9xl font-semibold">hi i'm ezra.</p>
             </div>
 
             <div className="text-center mb-10 max-w-lg">
