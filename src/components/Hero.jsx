@@ -3,7 +3,7 @@ function Hero() {
         <div className="bg-black text-white flex flex-col items-center justify-center min-h-screen px-4 md:px-20">
             <div className="mb-8 mt-8 md:mt-12 lg:mt-16">
                 <img
-                    className="w-80 h-80"
+                    className="w-80 h-80 rounded-xl"
                     src="./drawing-me.jpg"
                     alt="drawing-me"
                 />
