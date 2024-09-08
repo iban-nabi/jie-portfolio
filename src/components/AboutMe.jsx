@@ -4,7 +4,7 @@ function AboutMe() {
             <div className="relative">
                 <img
                     className="w-80 h-80 rounded-full object-cover shadow-lg"
-                    src="./public/me.png"
+                    src="./me.png"
                     alt="About Me"
                 />
             </div>
@@ -19,22 +19,22 @@ function AboutMe() {
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-4 flex-wrap justify-center">
                     <div className="flex items-center justify-center bg-black text-white py-2 px-4 rounded-full">
-                        <img className="w-5 h-5 mr-2 mt-1"  src="./public/name.svg" alt="name" />
+                        <img className="w-5 h-5 mr-2 mt-1"  src="./name.svg" alt="name" />
                         <span className="text-xl">Jan Ivan Ezra D. Paguyo</span>
                     </div>
 
                     <div className="flex items-center justify-center bg-black text-white py-2 px-4 rounded-full">
-                        <img className="w-5 h-5 mr-2 mt-1" src="./public/location.svg" alt="location" />
+                        <img className="w-5 h-5 mr-2 mt-1" src="./location.svg" alt="location" />
                         <span className="text-xl">Baguio City, Philippines</span>
                     </div>
 
                     <div className="flex items-center justify-center bg-black text-white py-2 px-4 rounded-full">
-                        <img className="w-5 h-5 mr-2 mt-1"  src="./public/education.svg" alt="education" />
+                        <img className="w-5 h-5 mr-2 mt-1"  src="./education.svg" alt="education" />
                         <span className="text-xl">Saint Louis University</span>
                     </div>
 
                     <div className="flex items-center justify-center bg-black text-white py-2 px-4 rounded-full">
-                        <img className="w-5 h-5 mr-2 mt-1"  src="./public/personality.svg" alt="personality" />
+                        <img className="w-5 h-5 mr-2 mt-1"  src="./personality.svg" alt="personality" />
                         <span className="text-xl">ISFP-T</span>
                     </div>
                 </div>
