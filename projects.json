@@ -1,15 +1,27 @@
 [
     {
-      "title": "KapeLink Ordering",
-      "description": "I am a hard-working and responsible individual who enjoys working with backend technologies and solving logic-related problems.",
+      "title": "Wordy Game",
+      "description": "An online game allowing multiple users to play together. The players must form a word out of the randmonly generated characters. The player that formed the longest word wins the round. A scoreboard was also implemented in order to identify the top winning players and the top longest formed in all of the games",
       "image": "https://via.placeholder.com/300x200",
-      "technologies": ["React", "Express", "Tailwind", "Mongodb", "NodeJS"]
+      "technologies": ["Java", "Python", "CORBA", "OmniORB", "MySQL"]
     },
     {
-      "title": "Project 2",
-      "description": "This is the second project description. It can be about another app, feature, or website.",
+      "title": "KapeLink - Ordering System",
+      "description": "Developed an ordering system for a client using MERN stack with chatbot functionality. This application allows sutdents within Saint Louis University to order products from a specific cafe. The web application allows on-site ordering and online ordering. Addtionally, a chatbot feature was implemented in order to handle user questions and FAQs.",
       "image": "https://via.placeholder.com/300x200",
-      "technologies": ["Vue", "Django", "Bootstrap", "PostgreSQL"]
+      "technologies": ["Mongodb", "Express", "React", "NodeJS", "Botpress", "Tailwind"]
+    },    
+    {
+      "title": "Online Document Review System",
+      "description": "Developed an online document review system where in requesters can upload documents that are needed to be reviewed and approved by different offices. These documents will be reviewed by the reviewer and they could either accept or reject the submitted document. The document can also be annotated with comments in order to inform the requester about their submitted document",
+      "image": "https://via.placeholder.com/300x200",
+      "technologies": ["HTML", "CSS","JavaScript", "Express", "Pug", "NodeJS", "PHP","Bootstrap"]
+    },    
+    {
+      "title": "Animalphabet",
+      "description": "Developed a search engine for animals utilizing APIs as the backend (Animal Information API and YouTube API). The search engine will show different animals, its information, and a video of the searched animal",
+      "image": "https://via.placeholder.com/300x200",
+      "technologies": ["HTML", "CSS" ,"JavaScript", "APIs"]
     }
   ]
   
