@@ -6,7 +6,7 @@
       "technologies": ["Java", "Python", "CORBA", "OmniORB", "MySQL"]
     },
     {
-      "title": "KapeLink - Ordering System",
+      "title": "KapeLink Ordering System",
       "description": "Developed an ordering system for a client using MERN stack with chatbot functionality. This application allows sutdents within Saint Louis University to order products from a specific cafe. The web application allows on-site ordering and online ordering. Addtionally, a chatbot feature was implemented in order to handle user questions and FAQs.",
       "image": "https://via.placeholder.com/300x200",
       "technologies": ["Mongodb", "Express", "React", "NodeJS", "Botpress", "Tailwind"]
