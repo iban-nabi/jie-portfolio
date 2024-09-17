@@ -1,17 +1,19 @@
 function Navigation() {
     return (
         <>
-            <nav className="flex justify-between items-center p-4">
+            <nav className="flex justify-between items-center p-4 sm:p-6">
+                {/* Logo Section */}
                 <div>
-                    <img className="w-20" src="./black-logo.svg" alt="Logo Image" />
+                    <img className="w-14 sm:w-20" src="./black-logo.svg" alt="Logo" />
                 </div>
 
-                <div className="flex space-x-10">
+                {/* Social Media Links */}
+                <div className="flex space-x-4 sm:space-x-10">
                     <a href="https://github.com/iban-nabi">
-                        <img className="w-10 h-13" src="./github-mark.svg" alt="Github Image" />
+                        <img className="w-8 h-8 sm:w-9 sm:h-9" src="./github-mark.svg" alt="Github" />
                     </a>
                     <a href="https://www.linkedin.com/in/jan-ivan-ezra-paguyo">
-                        <img className="w-9 h-10 mr-7" src="./linkedin.svg" alt="LinkedIn Image" />
+                        <img className="w-8 h-8 sm:w-9 sm:h-10" src="./linkedin.svg" alt="LinkedIn" />
                     </a>
                 </div>
             </nav>
@@ -19,4 +21,5 @@ function Navigation() {
         </>
     );
 }
+
 export default Navigation;

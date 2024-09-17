@@ -17,24 +17,20 @@ function Projects() {
         setLoading(false);
       }
     };
-    
+
     fetchProjects();
   }, []);
 
   const nextProject = () => {
-    if (currentProjectIndex < projects.length - 1) {
-      setCurrentProjectIndex(currentProjectIndex + 1);
-    } else {
-      setCurrentProjectIndex(0); 
-    }
+    setCurrentProjectIndex((prevIndex) =>
+      prevIndex < projects.length - 1 ? prevIndex + 1 : 0
+    );
   };
 
   const previousProject = () => {
-    if (currentProjectIndex > 0) {
-      setCurrentProjectIndex(currentProjectIndex - 1);
-    } else {
-      setCurrentProjectIndex(projects.length - 1);
-    }
+    setCurrentProjectIndex((prevIndex) =>
+      prevIndex > 0 ? prevIndex - 1 : projects.length - 1
+    );
   };
 
   if (loading) {
@@ -49,31 +45,23 @@ function Projects() {
 
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-white py-12">
-      <h1 className="text-6xl font-bold mb-12">Projects</h1>
-      <div className="flex items-center justify-center space-x-4">
-        <button
-          onClick={previousProject}
-          className="text-4xl text-gray-600 hover:text-gray-900"
-        >
-          &lt;
-        </button>
-
-
-        <div className="w-3/4 grid grid-cols-2 gap-8">
+      <h1 className="text-4xl sm:text-6xl font-bold mb-8 sm:mb-12">Projects</h1>
+      
+      <div className="w-full sm:w-3/4 flex flex-col items-center space-y-4 sm:space-y-0 sm:space-x-4 pr-6 pl-6 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
           <img
             src={image}
             alt={title}
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
-
           <div className="flex flex-col justify-center">
-            <h2 className="text-4xl font-bold">{title}</h2>
-            <p className="text-xl mt-4">{description}</p>
-            <div className="flex flex-wrap gap-2 mt-4">
+            <h2 className="text-2xl sm:text-4xl font-bold">{title}</h2>
+            <p className="text-lg sm:text-xl mt-2 sm:mt-4">{description}</p>
+            <div className="flex flex-wrap gap-2 mt-2 sm:mt-4">
               {technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="px-4 py-2 bg-black text-white rounded-full text-sm"
+                  className="px-3 py-1 sm:px-4 sm:py-2 bg-black text-white rounded-full text-xs sm:text-sm"
                 >
                   {tech}
                 </span>
@@ -81,22 +69,14 @@ function Projects() {
             </div>
           </div>
         </div>
-
-        <button
-          onClick={nextProject}
-          className="text-4xl text-gray-600 hover:text-gray-900"
-        >
-          &gt;
-        </button>
       </div>
 
-
-      <div className="flex justify-center mt-8 space-x-2">
+      <div className="flex mt-9 sm:mt-20 space-x-3 sm:space-x-3">
         {projects.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentProjectIndex(index)}
-            className={`h-4 w-4 rounded-full ${
+            className={`h-3 w-3 sm:h-4 sm:w-4 rounded-full ${
               currentProjectIndex === index ? "bg-black" : "bg-gray-300"
             }`}
           />
