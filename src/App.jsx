@@ -1,19 +1,21 @@
-import Navigation from "./components/Navigation"
-import Hero from "./components/Hero"
-import AboutMe from "./components/AboutMe"
-import TechStack from "./components/TechStack";
-import Projects from "./components/Projects";
+import Navigation from "./components/Navigation";
+import Hero from "./pages/Hero";
+import AboutMe from "./pages/AboutMe";
+import TechStack from "./pages/TechStack";
+import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
-    <>
-      <Navigation></Navigation>
-      <Hero></Hero>
-      <AboutMe></AboutMe>
-      <TechStack></TechStack>
-      <Projects></Projects>
-    </>
+    <div className="bg-gray-50">
+      <Navigation />
+      <Hero />
+      <AboutMe />
+      <TechStack />
+      <Experience />
+      <Projects />
+    </div>
   );
 }
 
-export default App
+export default App;
