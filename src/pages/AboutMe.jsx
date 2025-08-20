@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4 mt-32">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4 mt-12">
       <div className="relative flex flex-col items-center w-full">
         <img
           className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg absolute -top-20 left-1/2 -translate-x-1/2 z-20 border-4 border-white"

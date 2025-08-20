@@ -15,7 +15,7 @@ const experiences = [
 
 function Experience() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4 mt-8">
       <div className="bg-white rounded-lg shadow-lg mt-8 p-6 sm:p-10 md:p-16 max-w-screen-xl w-full">
         <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold text-center mb-8 sm:mb-10 md:mb-14 mt-5 sm:mt-7">
           Work Experience

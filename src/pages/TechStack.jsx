@@ -1,9 +1,10 @@
 function TechStack() {
   return (
-    <div className="bg-white px-4 sm:px-16 md:px-32 lg:px-48 2xl:px-72 mt-10 sm:mt-20 justify-center mb-16">
-
+    <div className="bg-white px-4 sm:px-16 md:px-32 lg:px-48 2xl:px-72 mt-2 sm:mt-4 justify-center mb-4 py-14">
       <div className="space-y-2 sm:space-y-8 self-start text-center sm:text-left mb-16">
-        <span className="text-4xl sm:text-6xl font-bold text-black">Tech Stack</span>
+        <span className="text-4xl sm:text-6xl font-bold text-black">
+          Tech Stack
+        </span>
         <p className="text-lg sm:text-2xl md:text-3xl">
           Experienced using different types of technologies but mostly prefers
           working with Java and JavaScript with Node.js.
@@ -47,8 +48,8 @@ function TechStack() {
           className="w-16 h-16 sm:w-28 sm:h-28"
         />
         <img
-          src="./tailwindcss.svg"
-          alt="Tailwind Logo"
+          src="./Spring_Boot.svg"
+          alt="Spring Boot Logo"
           className="w-16 h-16 sm:w-28 sm:h-28"
         />
         <img
