@@ -1,14 +1,14 @@
 function AboutMe() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4 mt-12">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4 mt-20 sm:mt-36">
       <div className="relative flex flex-col items-center w-full">
         <img
-          className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg absolute -top-20 left-1/2 -translate-x-1/2 z-20 border-4 border-white"
+          className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-full object-cover shadow-lg absolute -top-20 sm:-top-20 left-1/2 -translate-x-1/2 z-20 border-4 border-white"
           src="./me.jpg"
           alt="About Me"
         />
 
-        <div className="bg-white rounded-lg shadow-lg mt-20 p-6 sm:p-10 md:p-16 max-w-screen-xl w-full text-center relative z-10">
+        <div className="bg-white rounded-lg shadow-lg mt-8 sm:mt-20 p-6 sm:p-10 md:p-16 max-w-screen-xl w-full text-center relative z-10">
           <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold mb-8 sm:mb-10 md:mb-14 mt-20 sm:mt-24">
             About Me
           </h2>

@@ -2,7 +2,7 @@ const experiences = [
   {
     company: "Qualicom Innovations (Asia) Limited",
     logo: "./qualicom.jpg",
-    role: "Intern Programmer",
+    role: "Intern Programmer (Remote)",
     dateRange: "Jan 2025 - May 2025",
     details: [
       "Researched and proposed AI-driven solutions for a toy company,streamlining operations and processes.",
@@ -40,7 +40,9 @@ function Experience() {
                 <p className="text-gray-500 text-sm mb-3">{exp.dateRange}</p>
                 <ul className="list-disc ml-5 space-y-3 text-gray-700 text-base text-left inline-block">
                   {exp.details.map((item, i) => (
-                    <li key={i}>{item}</li>
+                    <li className="text-lg sm:text-xl mt-2 sm:mt-4" key={i}>
+                      {item}
+                    </li>
                   ))}
                 </ul>
               </div>

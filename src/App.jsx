@@ -7,7 +7,7 @@ import Experience from "./pages/Experience";
 
 function App() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 overflow-x-hidden">
       <Navigation />
       <Hero />
       <AboutMe />
